@@ -88,8 +88,10 @@ public class DepthFirstSearcher   {
       theGraph.linkTwoVertexs( 'G', 'I' );
 
      // Do a depth first search on theGraph starting from 'E'
+      System.out.println( "\n\n   Performing DFS traversal on graph beginning at vertex 'A': " );
       dfs( theGraph, 'A' );
-      System.out.print( "\n   Output list of vertices: " );
+      System.out.println( "                 Expecting: A B F H C D G I E" );
+      System.out.print( "   Output list of vertices: " );
       for( int i = 0; i < TEST_GRAPH_SIZE; i++ ) {
         System.out.print( output[i] + " " );
       }
@@ -108,8 +110,10 @@ public class DepthFirstSearcher   {
       theGraph.linkTwoVertexs( 'D', 'G' );
       theGraph.linkTwoVertexs( 'G', 'I' );
       index = 0;
+      System.out.println( "\n\n   Performing DFS traversal on graph beginning at vertex 'G': " );
       dfs( theGraph, 'G' );
-      System.out.print( "\n   Output list of vertices: " );
+      System.out.println( "                 Expecting: G D A B F H C E I" );
+      System.out.print( "   Output list of vertices: " );
       for( int i = 0; i < TEST_GRAPH_SIZE; i++ ) {
         System.out.print( output[i] + " " );
       }
