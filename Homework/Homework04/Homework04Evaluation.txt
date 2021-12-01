@@ -2,9 +2,6 @@
 Homework04 Evaluation
 ======================
 
-Nice job on this assignment...
-Here are a couple of observations and comments:
-
 
 scoring:
 =============================
