@@ -12,10 +12,11 @@ You must have the following structure for your own version of the repo:
 #### Classwork04
 #### Classwork05
 #### Classwork06
+####   &hellip;
 
 ## Homework
 #### Homework01
 #### Homework02
 #### Homework03
 #### Homework04
-#### Homework05 [we may not get to this one...]
+#### Homework05
