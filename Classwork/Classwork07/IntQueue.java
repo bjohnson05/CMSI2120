@@ -22,7 +22,6 @@ public class IntQueue {
    }
 
    public int deQueue() {
-      IntLinkedList.Iterator it = myQueue.getIteratorAt( 0 );
       return myQueue.removeAt( myQueue.getSize() - 1 );
    }
 
