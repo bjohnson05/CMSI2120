@@ -1,17 +1,18 @@
 /**
  * this is LISTING 4.6 The priorityQ.java Program from Lafore
- * priorityQ.java
+ * copy this code and name the file PriorityQ.java
+ *   then rename the class PriorityQ
  * demonstrates priority queue
- * to run this program: C>java PriorityQApp
+ * to run this program: %> java PriorityQApp
  */
-class Lafore46 {
+class PriorityQ {
   // array in sorted order, from max at 0 to min at size-1
    private int maxSize;
    private long[] queArray;
    private int nItems;
 
   // constructor
-   public Lafore46(int s) {
+   public PriorityQ(int s) {
       maxSize = s;
       queArray = new long[maxSize];
       nItems = 0;
