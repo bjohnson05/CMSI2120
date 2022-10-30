@@ -1,15 +1,15 @@
 /**
- * this is LISTING 4.6 The priorityQ.java Program from Lafore
- * PriorityQApp.java
+ * this is LISTING 4.6 The PriorityQApp.java Program from Lafore
+ * save this file to PriorityQApp.java
  * demonstrates priority queue
- * to run this program: C>java Lafore46App
+ * to run this program: %> java Lafore46App
  */
 
 import java.io.IOException;
 
-class Lafore46App {
+class PriorityQApp {
    public static void main( String[] args ) throws IOException {
-      Lafore46 thePQ = new Lafore46( 5 );
+      PriorityQ thePQ = new PriorityQ( 5 );
       thePQ.insert( 30 );
       thePQ.insert( 50 );
       thePQ.insert( 10 );
