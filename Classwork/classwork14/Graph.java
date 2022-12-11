@@ -1,7 +1,7 @@
 /**
  *  File Name  :  Graph.java
  *  Purpose    :  Provide a Graph class for the depth first search demo
- *  Author     :  Dr. Johnson
+ *  Author     :  B.J. Johnson
  *  Date       :  26-Mar-2003
  *  Description:  This class is the graph class which is the companion
  *                   to the DepthFirstSearcher class.
